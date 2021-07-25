@@ -1,4 +1,4 @@
-![image.png](https://github.com/Alex-Monahan/Alex-Monahan.github.io/blob/d66cc0e8a14f5e1c9eb5b5a8b1a98fc8f0c18039/images/att_00000.png)
+![image.png](/images/att_00000.png)
 # Python and SQL - Better Together with DuckDB!
 
 #### Many recent articles have compared SQL to more typical imperative languages. However, in my experience, I have needed both! I believe the more productive discussion is around deciding when to use each, and how to seamlessly blend them together. SQL isn't going anywhere, and neither are imperative languages!
