@@ -1,8 +1,3 @@
-
-# Title
-
-
-
 ![image.png](https://github.com/Alex-Monahan/Alex-Monahan.github.io/blob/main/images/att_00000.png)
 # Python and SQL - Better Together with DuckDB!
 
