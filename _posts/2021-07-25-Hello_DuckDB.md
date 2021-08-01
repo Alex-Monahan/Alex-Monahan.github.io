@@ -70,7 +70,7 @@ duckdb_conn.execute('SELECT * FROM train limit 10').fetchdf()
 
 
 
-<div>
+<div style="overflow:scroll">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
