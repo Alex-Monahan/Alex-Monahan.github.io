@@ -1,0 +1,37 @@
+SQL Pros / Cons
+Python Pros / Cons
+
+How to mix them together
+  Split into tools and techniques?
+  tools
+    DuckDB
+    SQLite
+    Pandas read_sql
+    SQLAlchemy
+    dbt
+    pyodbc
+    preql
+    ORM's
+  Techniques
+    SQL text as multiline strings
+    SQL as separate files
+    SQL with string manipulation
+    SQL with templating
+    %%sql magic in Jupyter
+    Dynamic SQL within the database
+    PL/Python for Postgres
+   
+   Preferred combination
+    DuckDB
+    SQLAlchemy driver for DuckDB
+    %%sql magic
+      Except for when transferring large amounts of data
+      Pull the data in chunks in that case
+    Pandas for Pivoting
+
+Ideal tools for working with DuckDB
+  %%sql magic
+    Used in combination with inserting into tables or parquet files and then doing a bulk result movement?
+    Benchmark the SQLAlchemy driver against the native transfer
+  DBeaver
+  
