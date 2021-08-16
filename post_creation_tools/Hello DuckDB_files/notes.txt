@@ -1,0 +1,116 @@
+Built using tutorial here:
+    https://www.fast.ai/2020/01/20/nb2md/
+
+Needed to build a Github Pages repo first using this tutorial here: (did this last by mistake...)
+    https://pages.github.com/
+
+Also used settings.ini from here:
+    https://nbdev.fast.ai/example.html
+    https://github.com/fastai/deck_of_cards/blob/master/settings.ini
+
+To Do List / Ideas
+
+    Learn to nicely format Pandas output tables in markdown
+    Figure out how to view SQL in VS Code editor on github (and how to link to it)
+    Write an article on Python and SQL - Better together (and why either of them?)
+        Libraries
+            a. SQLite
+            b. SQLAlchemy 
+            c. DuckDB
+            d. SQLitedict?
+        Why use Python in 2021?
+        Why use SQL in 2021?
+            Structure Query Language, not standard query language! However, if you use a standardized subset of the syntax, it can be highly compatible (except for dates...)
+        Why use them together?
+        How to mix them together?
+            Multi-line strings
+            Separate files
+            String manipulation
+            DuckDB
+            Templating?
+            sci-kit learn pipelines?
+            DAG orchestrators?
+            Spark
+
+
+    Write an article on DuckDB
+        a. Why DuckDB?
+        b. DuckDB intro
+        c. DuckDB best practices
+            Just use the connection, not a cursor
+            Use the SQL API for now - the Pandas API is under construction
+            fetch in chunks?
+            Parquet files for more permanent storage
+            glob syntax to read in many of them in parallel
+        d. Performance
+        e. Flexibility of the SQL implementation
+            subqueries
+            recursive CTE's
+            Window functions
+            Correlated subqueries
+            case insensitivity / nice suggestions if you miss something
+        f. Responsiveness of the maintainers
+            Median time to response and fix?
+        g. Popularity trend over time (Stars and commits and committers and downloads)
+        h. The future of DuckDB is bright!
+
+    
+
+    DuckDB Performance over time?
+        Look at their own benchmark data and find which commits were most significant
+        Compare with SQLite / Pandas
+        Manually install and run with different versions of the library and re-run a few queries to test it?
+    
+    DuckDB Parquet performance?
+
+    Performance of DuckDB on various types of underlying data
+        Test both reading and writing of each of these
+            Inserted into DuckDB already
+                physical table
+                temporary table?
+            Pandas dataframe
+            Arrow dataframe
+            Parquet file
+            .csv file
+
+    
+    Can DuckDB do everything that SQLite can do in more use cases?
+        Insert/update performance
+            Single insert at a time
+            N rows at a time
+            queue up what must be inserted and then insert that
+        
+        Single row retrieval
+
+        DuckDB and the GIL?
+            Can we do multiple separate queries at the same time on different threads?
+        
+        Multiprocess DuckDB? (Simultaneous insert and use of the data? Locking?)
+    
+    DuckDB startup performance?
+        Compared to Pandas?
+        Compared to SQLite?
+        Compared to Dask?
+    
+    DuckDB index performance
+
+    
+
+    Why use SQL when preprocessing for machine learning pipelines?
+        You'll likely need SQL when pulling your original data anyway
+        Keeps it in a format that is easier for stakeholders to understand
+        If you don't pivot into many columns too early, SQL won't get too messy?
+            May need to dynamically generate lists of columns
+        
+
+    DuckDB as a data lake orchestration engine
+
+    DuckDB in any DAG
+        Airflow?
+        Prefect?
+        Dagster?
+    
+    DuckDB on Amazon Lambda
+
+
+
