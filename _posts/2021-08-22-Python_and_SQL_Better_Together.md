@@ -2,7 +2,7 @@
 
 
 
-<img src="..\..\..\..\images\python_and_sql_cropped.png" width="600" style="max-width: 600px"></img> 
+<img src="..\..\..\..\images\python_and_sql_cropped.png" width="650" style="max-width: 650px">
 # Python and SQL: Better Together
 
 #### Python and SQL are complementary - we should focus on how best to integrate them rather than try to replace them!
@@ -25,7 +25,7 @@ Pedram also cites dbt as a powerful way to address some of SQL's rough edges. I 
 
 ## Why use SQL?
 
-<img src="..\..\..\..\images\stackoverflow_survey_programming_languages_pros.png" width="800" style="max-width: 800px"></img> 
+<img src="..\..\..\..\images\stackoverflow_survey_programming_languages_pros.png" width="650" style="max-width: 650px">
 
 Before mixing and matching, why would we want to use SQL in the first place? While I agree with Jamie that it is imperfect, it has many redeeming qualities! Toss any others I've forgotten on Twitter!
 
@@ -58,7 +58,7 @@ Before mixing and matching, why would we want to use SQL in the first place? Whi
 
 ## Tools to use when combining SQL and Python
 
-<img src="..\..\..\..\images\swiss_army_knife.jpg" width="300" style="max-width: 300px"></img> 
+<img src="..\..\..\..\images\swiss_army_knife.jpg" width="300" style="max-width: 300px;margin-left: auto;margin-right: auto;display: block;">
 
 #### Asterisks indicate libraries I have not used yet, but that I am excited to try!
 
@@ -104,7 +104,7 @@ Before mixing and matching, why would we want to use SQL in the first place? Whi
 
 ## DuckDB - One powerful way to mix Python and SQL
 
-<img src="..\..\..\..\images\duckdb_logo_screenshot.png" width="600" style="max-width: 600px"></img> 
+<img src="..\..\..\..\images\duckdb_logo_screenshot.png" width="650" style="max-width: 650px">
 
 [DuckDB](https://duckdb.org/) is best summarized as the SQLite of analytics. In under 10ms, you can spin up your own in-process database that is 20x faster than SQLite, and [in most cases faster than Pandas](https://duckdb.org/2021/05/14/sql-on-pandas.html)! 
 
