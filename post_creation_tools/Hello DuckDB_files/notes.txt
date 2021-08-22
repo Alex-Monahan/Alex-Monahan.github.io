@@ -8,30 +8,44 @@ Also used settings.ini from here:
     https://nbdev.fast.ai/example.html
     https://github.com/fastai/deck_of_cards/blob/master/settings.ini
 
+
+
 To Do List / Ideas
 
     Learn to nicely format Pandas output tables in markdown
     Figure out how to view SQL in VS Code editor on github (and how to link to it)
     Write an article on Python and SQL - Better together (and why either of them?)
-        Libraries
-            a. SQLite
-            b. SQLAlchemy 
-            c. DuckDB
-            d. SQLitedict?
         Why use Python in 2021?
         Why use SQL in 2021?
             Structure Query Language, not standard query language! However, if you use a standardized subset of the syntax, it can be highly compatible (except for dates...)
         Why use them together?
+        Libraries
+            pyodbc
+            SQLAlchemy
+            SQLite
+            DuckDB
+            SQLitedict?
+        
+        
         How to mix them together?
             Multi-line strings
             Separate files
             String manipulation
+            SQL magic
             DuckDB
-            Templating?
+            Postgres
+            dbt
+                Templating by itself?
             sci-kit learn pipelines?
             DAG orchestrators?
             Spark
 
+        DuckDB / SQLAlchemy / ipython-sql example
+            csv to pandas (with disclaimer that DuckDB has its own csv reader)
+            DuckDB to aggregate that data
+            Return it as a dataframe
+            pivot it out in Pandas
+            
 
     Write an article on DuckDB
         a. Why DuckDB?
