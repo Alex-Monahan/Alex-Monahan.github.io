@@ -1,7 +1,3 @@
-# Title
-
-
-
 <img src="..\..\..\..\images\python_and_sql_cropped.png" width="650" style="max-width: 650px">
 # Python and SQL: Better Together
 
