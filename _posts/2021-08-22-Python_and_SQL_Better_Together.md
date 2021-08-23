@@ -183,7 +183,7 @@ import sqlalchemy
 ```
 
 ### Let's play with a moderately sized dataset: a 1.6 GB csv
-This analysis is inspired by this [DuckDB intro article by Ewe Korn](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) and can be downloaded [here.](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Note that DuckDB can handle much larger datasets - this is only an example!
+This analysis is inspired by this [DuckDB intro article by Uwe Korn](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) and can be downloaded [here.](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Note that DuckDB can handle much larger datasets - this is only an example!
 
 First we load the ipython-sql extension and default our output to be in Pandas DF format. We will also simplify what is printed after each SQL statement.  
 Next, we connect to an in-memory DuckDB and set it to use all our available CPU horsepower!
