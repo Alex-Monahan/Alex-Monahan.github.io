@@ -1,4 +1,5 @@
 <img src="..\..\..\..\images\python_and_sql_cropped.png" width="650" style="max-width: 650px">
+
 # Python and SQL: Better Together
 
 #### Python and SQL are complementary - we should focus on how best to integrate them rather than try to replace them!
@@ -18,6 +19,8 @@ There has been some spirited debate over SQL on Tech Twitter in the last few wee
 [Pedram Navid responded to those points in an indirect way that I also found to be very impactful and thought provoking.](https://pedram.substack.com/p/for-sql) Pedram focused on the organizational impacts of choosing to move away from SQL. I agree with Pedram that SQL is a tremendous data democratization tool and that it is important that SQL folks and other programming language folks work as a team. He also makes the case that SQL is often good enough, and I would go a step further and say there are many cases where SQL is a very expressive way to request and manipulate data! The cases where SQL is most useful are very accessible and can really empower people where data is just a portion of their job. **SQL is the easiest to learn superpower as a data person!** 
 
 Pedram also cites dbt as a powerful way to address some of SQL's rough edges. I would like to take that line of thinking a step further here: **How can we mix and match Python and SQL to get the best of both?**
+<br>
+<br> 
 
 ## Why use SQL?
 
@@ -51,6 +54,8 @@ Before mixing and matching, why would we want to use SQL in the first place? Whi
     
 6. Chances are good you need to use SQL to pull your data initially anyway  
     * If you already need to know some SQL to access your company's valuable info, why not maximize your effectiveness with it?
+<br>
+<br>
 
 ## Tools to use when combining SQL and Python
 
@@ -96,7 +101,8 @@ Before mixing and matching, why would we want to use SQL in the first place? Whi
     * There are [adapters](https://docs.getdbt.com/docs/available-adapters) for both [DuckDB](https://github.com/jwills/dbt-duckdb) and [Clickhouse](https://github.com/silentsokolov/dbt-clickhouse) (A fast, massively popular open source columnar data warehouse) so this should perform well. These are both community maintained, so I'll just need to test them out a bit!  
 
 #### I plan to explore more of these in upcoming posts!
-    
+<br>
+<br>    
 
 ## DuckDB - One powerful way to mix Python and SQL
 
@@ -139,6 +145,8 @@ Besides the speed, why do I love DuckDB?
 
 9. DuckDB has a Relational API that is targeting Pandas compatibility  
     * While I am admittedly a SQL fan, having a relational API can be very helpful to add in some of the dynamism and flexibility of Pandas. 
+<br>
+<br>
 
 ## An example workflow with DuckDB
 
