@@ -278,7 +278,7 @@ USING SAMPLE 5
 
 
 
-<div>
+<div style="overflow:scroll;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -433,6 +433,7 @@ USING SAMPLE 5
 </div>
 
 
+<br>
 
 As you can see below, DuckDB did a great job auto-detecting our column types. One more traditional DB hassle eliminated!
 
@@ -820,7 +821,7 @@ aggregated_df
 
 
 
-<div>
+<div style="overflow:scroll;height:600px">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1607,7 +1608,7 @@ aggregated_df
 </table>
 </div>
 
-
+<br>
 
 ```python
 pivoted_df = pd.pivot_table(aggregated_df,
