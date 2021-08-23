@@ -1,3 +1,12 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WMXE9T6LL9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WMXE9T6LL9');
+</script>
 <img src="..\..\..\..\images\python_and_sql_cropped.png" width="650" style="max-width: 650px">
 
 # Python and SQL: Better Together

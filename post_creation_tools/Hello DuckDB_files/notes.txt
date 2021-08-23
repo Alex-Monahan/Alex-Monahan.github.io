@@ -9,6 +9,8 @@ Also used settings.ini from here:
     https://github.com/fastai/deck_of_cards/blob/master/settings.ini
 
 
+Set up Google Analytics using this:
+    https://morotsman.github.io/blog,/google/analytics,/jekyll,/github/pages/2020/07/07/add-google-analytics.html
 
 To Do List / Ideas
 
