@@ -1,11 +1,11 @@
 console.log('Got to the start');
 // Import the ESM bundle (supports tree-shaking)
-import * as duckdb from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-esm.js';
+import * as duckdb from 'https://alex-monahan.github.io/node_modules/@duckdb/duckdb-wasm/dist/duckdb-esm.js';
         
 // Either bundle them manually, for example as Webpack assets
-import duckdb_wasm from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb.wasm';
-import duckdb_wasm_next from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-next.wasm';
-import duckdb_wasm_next_coi from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-next-coi.wasm';
+import duckdb_wasm from 'https://alex-monahan.github.io/node_modules/@duckdb/duckdb-wasm/dist/duckdb.wasm';
+import duckdb_wasm_next from 'https://alex-monahan.github.io/node_modules/@duckdb/duckdb-wasm/dist/duckdb-next.wasm';
+import duckdb_wasm_next_coi from 'https://alex-monahan.github.io/node_modules/@duckdb/duckdb-wasm/dist/duckdb-next-coi.wasm';
 
 // ..., or load the bundles from jsdelivr
 const JSDELIVR_BUNDLES = duckdb.getJsDelivrBundles();
