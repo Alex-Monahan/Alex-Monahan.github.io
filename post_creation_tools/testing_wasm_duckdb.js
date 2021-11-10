@@ -1,3 +1,4 @@
+console.log('Got to the start');
 // Import the ESM bundle (supports tree-shaking)
 import * as duckdb from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-esm.js';
         
@@ -16,4 +17,4 @@ const worker = new Worker(bundle.mainWorker);
 const logger = new duckdb.ConsoleLogger();
 const db = new duckdb.AsyncDuckDB(logger, worker);
 await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
-console.log('Got here')
+console.log('Got to the end');
