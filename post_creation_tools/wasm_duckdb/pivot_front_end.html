@@ -1,0 +1,28 @@
+<!-- file:///C:/Users/Alex/Documents/Python%20Scripts/duckdb_sql_pivot/pivot_front_end.html -->
+<!-- http://localhost:3000/pivot_front_end.html -->
+<html>
+    <head>
+        <!-- With unpkg -->
+        <script src="https://cdn.jsdelivr.net/npm/@revolist/revogrid@latest/dist/revo-grid/revo-grid.js"></script>
+        
+        <!-- <script type="module" src="pivot_front_end.js"></script> -->
+        <link rel="stylesheet" href="pivot_front_end.css">
+    </head>
+    <body>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js'></script>
+        <script type="module" src="duckdb_pivot.js"></script>
+        <div id="wrapper">
+            <div id="field-list">
+                <div id="available-columns-list" class="container"></div>
+                
+                <div id="filters-list" class="container"></div>
+                <div id="columns-list" class="container"></div>
+                <div id="rows-list" class="container"></div>
+                <div id="values-list" class="container"></div>
+            </div>
+            <div id="grid-div" >
+                <revo-grid class="grid-component" filter=true/>
+            </div>
+        </div>
+    </body>
+</html>
