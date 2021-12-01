@@ -5,12 +5,12 @@ import {dummy_build_columns, build_filter_list, refresh_grid, server_pivot_funct
     try {
         const DUCKDB_CONFIG = await duckdb.selectBundle({
             asyncDefault: {
-                mainModule: './duckdb.wasm',
-                mainWorker: './duckdb-browser.worker.js',
+                mainModule: '../../../../post_creation_tools/wasm_duckdb/duckdb.wasm',
+                mainWorker: '../../../../post_creation_tools/wasm_duckdb/duckdb-browser.worker.js',
             },
             asyncNext: {
-                mainModule: './duckdb-next.wasm',
-                mainWorker: './duckdb-browser-next.worker.js',
+                mainModule: '../../../../post_creation_tools/wasm_duckdb/duckdb-next.wasm',
+                mainWorker: '../../../../post_creation_tools/wasm_duckdb/duckdb-browser-next.worker.js',
             },
         });
 
@@ -82,12 +82,12 @@ async function create_db_obj() {
     try {
         const DUCKDB_CONFIG = await duckdb.selectBundle({
             asyncDefault: {
-                mainModule: './duckdb.wasm',
-                mainWorker: './duckdb-browser.worker.js',
+                mainModule: '../../../../post_creation_tools/wasm_duckdb/duckdb.wasm',
+                mainWorker: '../../../../post_creation_tools/wasm_duckdb/duckdb-browser.worker.js',
             },
             asyncNext: {
-                mainModule: './duckdb-next.wasm',
-                mainWorker: './duckdb-browser-next.worker.js',
+                mainModule: '../../../../post_creation_tools/wasm_duckdb/duckdb-next.wasm',
+                mainWorker: '../../../../post_creation_tools/wasm_duckdb/duckdb-browser-next.worker.js',
             },
         });
 
